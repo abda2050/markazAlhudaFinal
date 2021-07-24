@@ -146,6 +146,18 @@ const Header = () => {
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
+                                            <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<> المنصات</>) : (<>platforms</>)}<i className="las la-angle-down"></i></Link>
+                                            <ul className="dropdown list-unstyled">
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/plateform"}>{lang === "ar" ? (<> المنصه الاوله</>) : (<>Plateform1</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/plateform2"}>{lang === "ar" ? (<> المنصه الثانيه</>) : (<>Plateform2</>)}</Link></li>
+
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/plateform3"}>{lang === "ar" ? (<>المنصه الثالثه</>) : (<>Plateform3</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/plateform4"}>{lang === "ar" ? (<>المنصه الرابعه</>) : (<>Plateform4</>)}</Link></li>
+                                                
+
+                                            </ul>
+                                        </li>
+                                        <li className="nav-item dropdown">
                                             <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الدورات</>) : (<>Courses</>)} <i className="las la-angle-down"></i></Link>
                                             <ul className="dropdown list-unstyled">
                                                 <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>{lang === "ar" ? (<> قائمه الدورات</>) : (<>Course Grid</>)}</Link></li>
