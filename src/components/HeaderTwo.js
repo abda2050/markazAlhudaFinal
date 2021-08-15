@@ -7,6 +7,7 @@ import StickyMenu from './common/StickyMenu';
 import MobileMenu from './common/MobileMenu';
 import { Styles } from "./styles/headerTwo.js";
 import { LangContext } from "./common/contexts/LangContext";
+import ChatBotButton from "./common/ChatBotButton";
 
 const HeaderTwo  = () => {
     const {lang, setLang} = useContext(LangContext);
@@ -30,12 +31,14 @@ const HeaderTwo  = () => {
                                 <ul className="list-unstyled list-inline">
                                     <li className="list-inline-item"><i className="las la-phone"></i>+971 (04) 263 3338</li>
                                     <li className="list-inline-item"><i className="las la-envelope"></i>Markazalhudadubai@gmail.com</li>
-                                    <li className="list-inline-item"><i className="las la-map-marker"></i>Al MizharAl Mizhar 1 - Dubai.
-                                </li>
+                                    <li className="list-inline-item"><i className="las la-map-marker"></i>Al MizharAl Mizhar 1 - Dubai</li>
                                 </ul>
                             </div>
+                            
                         </Col>
+                        
                         <Col lg="5" md="3">
+                            
                             <div className="bar-right d-flex justify-content-end">
                                 <ul className="list-unstyled list-inline bar-lang">
                                     <li className="list-inline-item">
@@ -49,12 +52,16 @@ const HeaderTwo  = () => {
                                         </Dropdown>
                                     </li>
                                 </ul>
+                              
+                              
                                 <ul className="list-unstyled list-inline bar-social">
                                     <li className="list-inline-item"><a href="https://www.facebook.com/markazalhuda" target="_blank"rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
                                     <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
                                     
                                     <li className="list-inline-item"><a href="https://www.instagram.com/markazalhuda/" target="_blank"rel="noopener noreferrer"><i className="fab fa-instagram"></i></a></li>
+                                    <li className="list-inline-item"><a href="https://wa.me/+9710508522004" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a></li>
                                 </ul>
+                                
 
                                 <ul className="list-unstyled list-inline sidebar-button">
                                     <li className="list-inline-item nav-item side-box">
@@ -95,7 +102,6 @@ const HeaderTwo  = () => {
                                          
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/contact"}>{lang === "ar" ? (<>تواصل معنا</>):(<>Contact</>)}</Link></li>
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/faq"}>{lang==="ar" ? (<>أسئلة شائعة</>):(<>Faq</>)}</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/404"}>404</Link></li>
                                             
                                         </ul>
                                         </li>
@@ -107,13 +113,7 @@ const HeaderTwo  = () => {
                                                 <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-details"}>{lang === "ar" ? (<>الدورات</>) : (<>Course Details</>)}</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>المدرسون</>) : (<>Instructors</>)} <i className="las la-angle-down"></i></Link>
-                                            <ul className="dropdown list-unstyled">
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor"}>{lang === "ar" ? (<>المعلمات</>) : (<>Instructors</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor-details"}>{lang === "ar" ? (<> تفاصيل المعلمات </>) : (<>Instructors Details</>)}</Link></li>
-                                            </ul>
-                                        </li>
+                                       
                                         <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الأحداث</>) : (<>Events</>)} <i className="las la-angle-down"></i></Link>
                                             <ul className="dropdown list-unstyled">
@@ -131,9 +131,13 @@ const HeaderTwo  = () => {
                                     </li>
                                     
                                 </ul>
-                                <div className="search-box">
-                                    <Search />
-                                </div>
+                                <ul>
+                                    <li className="list-inline-item">
+                                        <ChatBotButton />
+                                    </li>
+                                </ul>
+                                
+                               
                                 <div className="apply-btn">
                                     <a href="https://github.com/abda2050/projectMarkaz" target="_blank" rel="noopener noreferrer"><i className="las la-clipboard-list"></i>{lang ==="ar"?(<>قدّم الأن</>):(<>Apply Now</>)}</a>
                                 </div>

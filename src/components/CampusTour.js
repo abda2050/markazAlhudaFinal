@@ -26,10 +26,10 @@ class CampusTour extends Component {
                             </Col>
                             <Col lg="2" md="3">
                                 <div className="tour-box">
-                                    <ModalImage small={process.env.PUBLIC_URL + "/assets/images/tour-1.jpg"} large={process.env.PUBLIC_URL + "/assets/images/tour-1.jpg"} alt="" />
+                                    <ModalImage small={process.env.PUBLIC_URL + "/assets/images/tour-1.jpeg"} large={process.env.PUBLIC_URL + "/assets/images/tour-1.jpg"} alt="" />
                                 </div>
                                 <div className="tour-box">
-                                    <ModalImage small={process.env.PUBLIC_URL + "/assets/images/tour-2.jpg"} large={process.env.PUBLIC_URL + "/assets/images/tour-2.jpg"} alt="" />
+                                    <ModalImage small={process.env.PUBLIC_URL + "/assets/images/tour-2.jpeg"} large={process.env.PUBLIC_URL + "/assets/images/tour-2.jpg"} alt="" />
                                 </div>
                             </Col>
                             <Col lg="4" md="6">
@@ -46,14 +46,14 @@ class CampusTour extends Component {
                                     </Col>
                                     <Col lg="12">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/tour-wt1.jpg"} large={process.env.PUBLIC_URL + "/assets/images/tour-wt1.jpg"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/tour-wt1.jpeg"} large={process.env.PUBLIC_URL + "/assets/images/tour-wt1.jpg"} alt="" />
                                         </div>
                                     </Col>
                                 </Row>
                             </Col>
                             <Col lg="2" md="3">
                                 <div className="tour-box">
-                                    <ModalImage small={process.env.PUBLIC_URL + "/assets/images/tour-ht.jpg"} large={process.env.PUBLIC_URL + "/assets/images/tour-ht.jpg"} alt="" />
+                                    <ModalImage small={process.env.PUBLIC_URL + "/assets/images/tour-ht.jpeg"} large={process.env.PUBLIC_URL + "/assets/images/tour-ht.jpg"} alt="" />
                                 </div>
                             </Col>
                             <Col lg="4" md="12">

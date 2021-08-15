@@ -35,6 +35,7 @@ const Header = () => {
                                 </ul>
                             </div>
                         </Col>
+                      
                         <Col lg="6" md="7">
                             <div className="bar-right d-flex justify-content-end">
                                 <ul className="list-unstyled list-inline bar-social">
@@ -42,7 +43,9 @@ const Header = () => {
                                     <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
 
                                     <li className="list-inline-item"><a href="https://www.instagram.com/markazalhuda/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a></li>
+                                    <li className="list-inline-item"><a href="https://wa.me/+971558815756" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a></li>
                                 </ul>
+                               
                                 <ul className="list-unstyled list-inline bar-lang">
                                     <li className="list-inline-item">
                                         <Dropdown>
@@ -59,15 +62,16 @@ const Header = () => {
                                         </Dropdown>
                                     </li>
                                 </ul>
-                                {/* <ul className="list-unstyled list-inline bar-login">
-                                    <li className="list-inline-item"><a href="https://github.com/abda2050/projectMarkaz" target="_blank"><i className="las la-user"></i>{lang === "ar" ? (<>تسجيل الدخول</>) : (<>Log In</>)}</a></li>
-                                    <li className="list-inline-item"><a href="https://github.com/abda2050/projectMarkaz" target="_blank"><i className="las la-user-edit"></i>{lang === "ar" ? (<>التسجيل</>) : (<>Register</>)}</a></li>
-                                </ul> */}
+                               
                                 <ul>
                                     <li className="list-inline-item">
                                         <ChatBotButton />
                                     </li>
                                 </ul>
+                                 <ul className="list-unstyled list-inline bar-login">
+                                    <li className="list-inline-item"><a href="https://github.com/abda2050/projectMarkaz" target="_blank"><i className="las la-user"></i>{lang === "ar" ? (<>تسجيل الدخول</>) : (<>Log In</>)}</a></li>
+                                    
+                                </ul> 
                             </div>
                         </Col>
                     </Row>
@@ -108,7 +112,7 @@ const Header = () => {
                                     </div>
                                 </div>
                                 <div className="apply-btn">
-                                    <a href="https://github.com/abda2050/projectMarkaz" target="_blank" rel="noopener noreferrer"><i className="las la-clipboard-list"></i>{lang === "ar" ? (<>قدّم الأن</>) : (<>Apply Now</>)}</a>
+                                    <a href="https://github.com/abda2050/projectMarkaz" target="_blank" rel="noopener noreferrer"><i className="las la-clipboard-list"></i>{lang === "ar" ? (<>التسجيل</>) : (<>Register</>)}</a>
                                 </div>
                             </div>
                         </Col>
@@ -141,22 +145,9 @@ const Header = () => {
 
                                                 <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/contact"}>{lang === "ar" ? (<>تواصل معنا</>) : (<>Contact</>)}</Link></li>
                                                 <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/faq"}>{lang === "ar" ? (<>أسئلة شائعة</>) : (<>Faq</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/404"}>404</Link></li>
-
                                             </ul>
                                         </li>
-                                        <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<> المنصات</>) : (<>platforms</>)}<i className="las la-angle-down"></i></Link>
-                                            <ul className="dropdown list-unstyled">
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/plateform"}>{lang === "ar" ? (<> المنصه الاوله</>) : (<>Plateform1</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/plateform2"}>{lang === "ar" ? (<> المنصه الثانيه</>) : (<>Plateform2</>)}</Link></li>
-
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/plateform3"}>{lang === "ar" ? (<>المنصه الثالثه</>) : (<>Plateform3</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/plateform4"}>{lang === "ar" ? (<>المنصه الرابعه</>) : (<>Plateform4</>)}</Link></li>
-                                                
-
-                                            </ul>
-                                        </li>
+                                       
                                         <li className="nav-item dropdown">
                                             <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الدورات</>) : (<>Courses</>)} <i className="las la-angle-down"></i></Link>
                                             <ul className="dropdown list-unstyled">
@@ -165,13 +156,7 @@ const Header = () => {
                                                 <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-details"}>{lang === "ar" ? (<>الدورات</>) : (<>Course Details</>)}</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>المدرسون</>) : (<>Instructors</>)} <i className="las la-angle-down"></i></Link>
-                                            <ul className="dropdown list-unstyled">
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor"}>{lang === "ar" ? (<>المعلمات</>) : (<>Instructors</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor-details"}>{lang === "ar" ? (<> تفاصيل المعلمات </>) : (<>Instructors Details</>)}</Link></li>
-                                            </ul>
-                                        </li>
+                                        
                                         <li className="nav-item dropdown">
                                             <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الأحداث</>) : (<>Events</>)} <i className="las la-angle-down"></i></Link>
                                             <ul className="dropdown list-unstyled">

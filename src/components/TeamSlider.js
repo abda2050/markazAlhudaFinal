@@ -3,9 +3,12 @@ import Datas from '../data/team/team-slider.json';
 import { Container, Row, Col } from 'react-bootstrap';
 import Swiper from 'react-id-swiper';
 import { Styles } from "./styles/teamSlider.js";
+import {LangContext} from "./common/contexts/LangContext";
 
 class TeamSlider extends Component {
+    static contextType = LangContext;
     render() {
+        const lang = this.context.lang;
         const settings = {
             slidesPerView: 4,
             loop: true,
@@ -44,7 +47,8 @@ class TeamSlider extends Component {
                         <Row>
                             <Col md="12">
                                 <div className="sec-title text-center">
-                                    <h4>{Datas.secTitle}</h4>
+                                {lang === "ar" ? (<h4>{Datas.secTitleArabic}</h4>):( <h4>{Datas.secTitle}</h4>)}
+                                    
                                 </div>
                             </Col>
                             <Col md="12" className="team-slider">
@@ -54,12 +58,12 @@ class TeamSlider extends Component {
                                             <div className="team-item" key={i}>
                                                 <img src={process.env.PUBLIC_URL + `/assets/images/${data.personImage}`} alt="" className="img-fluid" />
                                                 <div className="img-content text-center">
-                                                    <h5>{data.personName}</h5>
-                                                    <p>{data.personTitle}</p>
+                                                {lang === "ar" ? ( <h5>{data.personNameArabic}</h5>):( <h4>{Datas.secTitle}</h4>)}
+                                                   
+                                                    
                                                     <ul className="list-unstyled list-inline">
-                                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + data.socialLinks.facebook}><i className="fab fa-facebook-f"></i></a></li>
-                                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + data.socialLinks.twitter}><i className="fab fa-twitter"></i></a></li>
-                                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + data.socialLinks.youtube}><i className="fab fa-youtube"></i></a></li>
+                                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + data.socialLinks.google}><i class="fab fa-internet-explorer"></i></a></li>
+                                                        
                                                     </ul>
                                                 </div>
                                             </div>

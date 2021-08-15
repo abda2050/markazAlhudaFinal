@@ -85,6 +85,10 @@ export const Styles = styled.div`
                                 i.fa-youtube {
                                     background-color: #DD1343;
                                 }
+                                
+                                i.fa-whatsapp {
+                                    background-color: #DD1343;
+                                }
                             }
                         }
                     }

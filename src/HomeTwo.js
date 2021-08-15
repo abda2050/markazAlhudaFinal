@@ -36,10 +36,10 @@ export default class HomeTwo extends Component {
                 <NumberCounter />
 
                 {/* Free Course Area */}
-                <FreeCourse />
+                
 
                 {/* Team Slider */}
-                <TeamSlider />
+               <TeamSlider/>
 
                 {/* Testimonial Slider */}
                 <TestimonialSlider />
@@ -48,7 +48,7 @@ export default class HomeTwo extends Component {
                 <HomeBlog />
 
                 {/* Image Gallery Area */}
-                <ImageGallery />
+                <ImageGallery/>
 
                 {/* Footer 2 */}
                 <FooterTwo />

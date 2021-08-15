@@ -39,10 +39,10 @@ export default class HomeOne extends Component {
                 < FaqEvent />
 
                 {/* Team Slider */}
-                < TeamSlider />
+                <TeamSlider/>
 
                 {/* Help Area */}
-                < HelpArea />
+                
 
                 {/* Blog Area */}
                 < HomeBlog />

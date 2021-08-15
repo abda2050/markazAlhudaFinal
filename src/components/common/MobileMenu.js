@@ -1,11 +1,24 @@
 import React, { useEffect,useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col,  } from 'react-bootstrap';
 import { Styles } from "./styles/mobileMenu.js";
 import {LangContext} from "./contexts/LangContext";
+import ChatBotButton from "../../components/common/ChatBotButton";
+
+
+ 
 
 function MobileMenu() {
-    const {lang} = useContext(LangContext);
+    const { lang, setLang } = useContext(LangContext);
+
+    const toggleArabic = () => {
+        setLang("ar");
+    };
+
+    const toggleEnglish = () => {
+        setLang("en");
+    };
+    
     useEffect(() => {
         // Mobile Menu
         const hmBtn = document.getElementById("mb-sidebar-btn");
@@ -61,16 +74,30 @@ function MobileMenu() {
                         <Col md="0" sm="12">
                             <div className="mb-topbar d-flex justify-content-between">
                                 <div className="topbar-item">
-                                    <p><i className="las la-phone"></i>+971 263 3338</p>
+                                    <p><i className="las la-phone"></i>+971 (04) 263 3338</p>
                                 </div>
                                 <div className="topbar-item">
-                                    {/* <ul className="list-unstyled list-inline">
+                                    { <ul className="list-unstyled list-inline">
                                         <li className="list-inline-item"><a href="https://github.com/abda2050/projectMarkaz">{lang === "ar" ? (<>تسجيل الدخول</>):(<>Login</>)}</a></li>
                                         <li className="list-inline-item">/</li>
                                         <li className="list-inline-item"><a href="https://github.com/abda2050/projectMarkaz" target="_blank">{lang === "ar" ? (<>تسجيل</>):(<>Register</>)}</a></li>
-                                    </ul> */}
+                                    </ul> }
+                                     <ul>
+                                    <li className="list-inline-item">     
+                                                <button as="li" onClick={toggleArabic}>العربية</button>
+                                                <button as="li" onClick={toggleEnglish}> English</button>
+                                               
+                                    </li>
+                                </ul>
+                               
+                                 <ul>
+                                    <li className="list-inline-item">
+                                        <ChatBotButton />
+                                    </li>
+                                </ul>
                                 </div>
                             </div>
+                            
                             <div className="mb-logo-area d-flex justify-content-between">
                                 <div className="mb-logo-box d-flex">
                                     <div className="hm-button">
@@ -124,7 +151,7 @@ function MobileMenu() {
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/registration"}>{lang === "ar" ? (<>التسجيل</>) : (<>Registration</>)}</Link></li> */}
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/contact"}>{lang === "ar" ? (<>تواصل معنا</>):(<>Contact</>)}</Link></li>
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/faq"}>{lang==="ar" ? (<>أسئلة شائعة</>):(<>Faq</>)}</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/404"}>404</Link></li>
+                                          
                                             
                                         </ul>
                         </div>
@@ -175,13 +202,9 @@ function MobileMenu() {
                                             </ul>
                         </div>
                     </div>
-                    <div className="mb-menu-item">
-                        <button className="mb-menu-button">
-                            <p>Shop <i className="las la-plus"></i></p>
-                        </button>
-                       
-                    </div>
+                   
                 </div>
+                
             </section>
             <div className="mb-sidebar-overlay" id="mb-sidebar-overlay"></div>
         </Styles>

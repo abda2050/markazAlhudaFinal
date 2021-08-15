@@ -1,65 +1,121 @@
 {
     "secTitle": "We Have Fantustic Team To Help Student And They Are Always Ready.",
+    "secTitleArabic": "مواقع",
     "dataList": [
         {
             "id": "1",
-            "personImage": "team-1.jpg",
-            "personName": "Emily Perrey",
-            "personTitle": "Teacher",
+            "personImage": "team-1.JFIF",
+            "personName": "Department of Islamic Affairs and Charitable Activities",
+            "personNameArabic": "دائرة الشؤون الإسلامية والعمل الخيري",
+            
             "socialLinks": {
-                "facebook": "//www.facebook.com",
-                "twitter": "//www.twitter.com",
-                "linkedin": "//www.linkedin.com",
-                "youtube": "//www.youtube.com"
+                "google": "https://www.iacad.gov.ae/ar/Pages/default.aspx"
+               
             }
         },
         {
             "id": "2",
-            "personImage": "team-2.jpg",
-            "personName": "Justin Timbr",
-            "personTitle": "Teacher",
+            "personImage": "team-2.png",
+            "personName": "Esaad",
+            "personNameArabic": "إسعاد",
             "socialLinks": {
-                "facebook": "//www.facebook.com",
-                "twitter": "//www.twitter.com",
-                "linkedin": "//www.linkedin.com",
-                "youtube": "//www.youtube.com"
+                "google": "https://esaad.dubaipolice.gov.ae/"
+              
             }
         },
         {
             "id": "3",
-            "personImage": "team-3.jpg",
-            "personName": "Medison White",
-            "personTitle": "Teacher",
+            "personImage": "team-3.png",
+            "personName": "Sharjah Foundation for the Holy Quran and Sunnah",
+            "personNameArabic": "مؤسسة الشارقة للقرآن الكريم والسنة النبوية",
             "socialLinks": {
-                "facebook": "//www.facebook.com",
-                "twitter": "//www.twitter.com",
-                "linkedin": "//www.linkedin.com",
-                "youtube": "//www.youtube.com"
+                "google": "https://noblequran.shj.ae/"
+               
             }
         },
         {
             "id": "4",
-            "personImage": "team-4.jpg",
-            "personName": "Mark Shadow",
-            "personTitle": "Teacher",
+            "personImage": "team-4.png",
+            "personName": "Dubai Government Excellence Award",
+            "personNameArabic": "برنامج دبي للتميز الحكوم",
+            
             "socialLinks": {
-                "facebook": "//www.facebook.com",
-                "twitter": "//www.twitter.com",
-                "linkedin": "//www.linkedin.com",
-                "youtube": "//www.youtube.com"
+                "google": "https://dgep.gov.ae/ar"
+                
             }
         },
         {
             "id": "5",
-            "personImage": "team-5.jpg",
-            "personName": "Katy Perrey",
-            "personTitle": "Teacher",
+            "personImage": "team-5.JFIF",
+            "personName": "Share the Emirates",
+            "personNameArabic": "شارك الامارات",
+            
             "socialLinks": {
-                "facebook": "//www.facebook.com",
-                "twitter": "//www.twitter.com",
-                "linkedin": "//www.linkedin.com",
-                "youtube": "//www.youtube.com"
+                "google": "https://u.ae/participate/"
+                
             }
-        }
+        },
+        {
+            "id": "6",
+            "personImage": "team-6.JFIF",
+            "personName": "Ras Al Khaimah Foundation",
+            "personNameArabic": "مؤسسة راس الخيمه",
+            
+            "socialLinks": {
+                "google": "https://www.rakcharity.ae/"
+                
+            }
+        },
+        {
+            "id": "7",
+            "personImage": "team-7.jfif",
+            "personName": "Ajman competition prize",
+            "personNameArabic": "جائزه مسابقه عجمان",
+            "socialLinks": {
+                "Google": "http://rsh-award.org.ae/home"
+            
+            }
+        },
+        {
+            "id": "8",
+            "personImage": "team-8.jfif",
+            "personName": "Humaid Bin Rashid Al Nuaimi Center",
+            "personNameArabic": "مركز حميد بن راشد النعيمي",
+            "socialLinks": {
+                "Google": "http://ajquran.ae/qu/"
+            
+            }
+        },
+            {
+                "id": "9",
+                "personImage": "team-9.jfif",
+                "personName": "Sheikha Latifa Award",
+                "personNameArabic": "جائزه الشيخه لطيفه",
+                "socialLinks": {
+                    "Google": "https://www.latifaaward.org/"
+                
+                }
+        },
+        {
+            "id": "10",
+            "personImage": "team-10.jpg",
+            "personName": "Sheikha Hind Dubai International Competition",
+            "personNameArabic": "مسابقة الشيخة هند دبي الدوليه",
+            "socialLinks": {
+                "Google": "http://www.quran.gov.ae/index.php?Itemid=577&id=131&option=com_content&view=article"
+            
+            }
+        },
+            {
+                "id": "11",
+                "personImage": "team-11.PNG",
+                "personName": "Sheikha Hind Dubai International Competition",
+                "personNameArabic": "مسابقة الشيخة هند دبي الدوليه",
+                "socialLinks": {
+                    "Google": "http://www.quran.gov.ae/index.php?Itemid=577&id=131&option=com_content&view=article"
+                
+                }
+    }
+
     ]
 }
