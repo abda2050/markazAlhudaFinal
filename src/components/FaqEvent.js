@@ -36,7 +36,7 @@ function FaqEvent() {
                                 <Row>
                                     <Col md="12">
                                         <div className="sec-title">
-                                            {lang === "ar" ? (<h4><span>الأحداث</span> القادمة </h4>) : (<h4>Upcoming <span>Events</span></h4>)}
+                                            {lang === "ar" ? (<h4><span>أحداث </span> ألمركز </h4>) : (<h4>Center  <span>Events</span></h4>)}
                                             
                                         </div>
                                     </Col>
@@ -65,7 +65,7 @@ function FaqEvent() {
                         <Col md="6">
                             <div className="faq-area">
                                 <div className="sec-title">
-                                    {lang === "ar" ? (<h4>أسئلة <span> شائعة</span></h4>) : (<h4>Frequently Ask <span>Question</span></h4>)}
+                                    {lang === "ar" ? (<h4>ألتعلم في   <span> مركز الهدا</span></h4>) : (<h4>Learning  <span>at Al Hada Center</span></h4>)}
                                     
                                 </div>
                                 <div className="faq-box">
@@ -74,10 +74,12 @@ function FaqEvent() {
                                             <div className="faq-item" key={i}>
                                                 <button className="accordion-button active">
                                                     <div className="accordion-icon"><i className="las la-plus"></i></div>
-                                                    <p>{faqData.faqTitle}</p>
+                                                    {lang === "ar" ? ( <p>{faqData.faqTitleArabic}</p>) : (<p>{faqData.faqTitle}</p>)}
+                                                   
                                                 </button>
                                                 <div className="accordion-content show">
-                                                    <p>{faqData.faqDesc}</p>
+                                                {lang === "ar" ? (<p>{faqData.faqDescArabic}</p> ) : (<p>{faqData.faqDesc}</p>)}
+                                                    
                                                 </div>
                                             </div>
                                         ))

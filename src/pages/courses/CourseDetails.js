@@ -73,10 +73,10 @@ function CourseDetails() {
                                                     <li className="list-inline-item">(4.5)</li>
                                                 </ul>
                                             </div>
-                                            <div className="price">
-                                                <h6>Price</h6>
-                                                <p>$29.00</p>
-                                            </div>
+                                            
+                                                
+                                                
+                                            
                                         </div>
                                     </div>
                                     <div className="course-details-banner">
@@ -127,10 +127,10 @@ function CourseDetails() {
                                                         <h5>Share This Course</h5>
                                                         <ul className="social list-unstyled list-inline">
                                                             <li className="list-inline-item"><a href="https://www.facebook.com/markazalhuda" target="_blank"rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
-                                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
+                                                            <li className="list-inline-item"><a href="https://twitter.com/markazalhuda_" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
                                                             <li className="list-inline-item"><a href="https://wa.me/+9710508522004" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a></li>
-                                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
-                                                            
+                                                            <li className="list-inline-item"><a href="https://www.youtube.com/channel/UCCrGSQOE6Yiq3LYXkLbma0g" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a></li>
+                                                            <li className="list-inline-item"><a href="https://t.me/markazalhudaduba" target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram"></i></a></li>
                                                         </ul>
                                                     </div>
                                                 </Tab.Pane>
@@ -267,10 +267,11 @@ function CourseDetails() {
                                                                                 <ul className="social list-unstyled list-inline">
                                                                                 <li className="list-inline-item"><a href="https://wa.me/+9710508522004" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a></li>
                                                                                     <li className="list-inline-item"><a href="https://www.facebook.com/markazalhuda" target="_blank"rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href="https://wa.me/+9710508522004" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
+                                                                                    <li className="list-inline-item"><a href="https://twitter.com/markazalhuda_" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
+                                                                                    
+                                                                                   
+                                                                                    <li className="list-inline-item"><a href="https://www.youtube.com/channel/UCCrGSQOE6Yiq3LYXkLbma0g" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a></li>
+                                                                                    <li className="list-inline-item"><a href="https://t.me/markazalhudaduba" target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram"></i></a></li>
                                                                                 </ul>
                                                                             </div>
                                                                         </div>
@@ -322,7 +323,7 @@ function CourseDetails() {
                                                                 <h5>Course Reviews</h5>
                                                                 <div className="comment-box d-flex">
                                                                     <div className="comment-image">
-                                                                        <img src={process.env.PUBLIC_URL + `/assets/images/testimonial-2.jpg`} alt="" />
+                                                                        <img src={process.env.PUBLIC_URL + `/assets/images/profile.jpg`} alt="" />
                                                                     </div>
                                                                     <div className="comment-content">
                                                                         <div className="content-title d-flex justify-content-between">
@@ -376,7 +377,7 @@ function CourseDetails() {
                                                                 </div>
                                                                 <div className="comment-box d-flex">
                                                                     <div className="comment-image">
-                                                                        <img src={process.env.PUBLIC_URL + `/assets/images/testimonial-2.jpg`} alt="" />
+                                                                        <img src={process.env.PUBLIC_URL + `/assets/images/profile.jpg`} alt="" />
                                                                     </div>
                                                                     <div className="comment-content">
                                                                         <div className="content-title d-flex justify-content-between">
@@ -421,11 +422,10 @@ function CourseDetails() {
                                             <div className="course-details-feature">
                                                 <h5 className="title">Course Details</h5>
                                                 <ul className="list-unstyled feature-list">
-                                                    <li><i className="las la-calendar"></i> Start Date: <span>Aug 21, 2020</span></li>
+                                                   
                                                     <li><i className="las la-clock"></i> Duration: <span>1 Year</span></li>
                                                     <li><i className="las la-globe"></i> Language: <span>English</span></li>
-                                                    <li><i className="las la-sort-amount-up"></i> Skill Level: <span>Beginner</span></li>
-                                                    <li><i className="las la-graduation-cap"></i> Subject: <span>Web</span></li>
+                                                    
                                                     <li><i className="las la-book"></i> Lectures: <span>51</span></li>
                                                     <li><i className="las la-bookmark"></i> Enrolled: <span>236</span></li>
                                                     <li><i className="las la-certificate"></i> Certification: <span>Yes</span></li>

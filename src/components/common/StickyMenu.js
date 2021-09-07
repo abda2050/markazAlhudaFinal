@@ -36,9 +36,9 @@ function StickyMenu() {
                                     <li className="nav-item dropdown active">
                                         <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الصفحة الرئيسية</>) : (<>Home</>)} <i className="las la-angle-down"></i></Link>
                                         <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/"}>{lang === "ar" ? (<>1 الصفحة الرئيسية</>) : (<>Home Style 1</>)}</Link></li>
-                                            <li className="nav-item active"><Link className="nav-link" to={process.env.PUBLIC_URL + "/home-two"}>{lang === "ar" ? (<>2 الصفحة الرئيسية</>) : (<>Home Style 2</>)}</Link></li>
-                                        </ul>
+                                                <li className="nav-item active"><Link className="nav-link" to={process.env.PUBLIC_URL + "/"}>{lang === "ar" ? (<>قسم الناطقين باللغه العربيه </>) : (<>Arabic Section For Arabs</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/home-two"}>{lang === "ar" ? (<>قسم لغير الناطقين باللغه العربيه</>) : (<>English Section For Non - Arabs </>)}</Link></li>
+                                            </ul>
                                     </li>
                                     <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الصفحات</>):(<>Pages</>)} <i className="las la-angle-down"></i></Link>
@@ -49,44 +49,34 @@ function StickyMenu() {
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/registration"}>{lang === "ar" ? (<>التسجيل</>) : (<>Registration</>)}</Link></li> */}
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/contact"}>{lang === "ar" ? (<>تواصل معنا</>):(<>Contact</>)}</Link></li>
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/faq"}>{lang==="ar" ? (<>أسئلة شائعة</>):(<>Faq</>)}</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/404"}>404</Link></li>
+                                            
                                                 
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الدورات</>):(<>Courses</>)} <i className="las la-angle-down"></i></Link>
-                                        <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>{lang === "ar" ? (<>شبكة الدورات</>):(<>Course Grid</>)}</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-list"}>{lang === "ar" ? (<>قائمة الدورات</>):(<>Course List</>)}</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-details"}>{lang === "ar" ? (<>تفاصيل الدورات</>):(<>Course Details</>)}</Link></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown"><i className="las la-angle-down"></i></Link>
-                                        <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor"}>{lang === "ar" ? (<>المدّربون</>):(<>Instructors</>)} </Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor-details"}>{lang === "ar" ? (<>تفاصيل المدربين</>):(<>Instructor Details</>)}</Link></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الأحداث</>):(<>Events</>)} <i className="las la-angle-down"></i></Link>
-                                        <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/events"}>{lang === "ar" ? (<>الأحداث</>):(<>Events</>)}</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/event-details"}>{lang === "ar" ? (<>تفاصيل الأحداث</>):(<>Event Details</>)}</Link></li>
-                                        </ul>
-                                    </li>
+                                           {/* <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الدورات</>) : (<>Courses</>)} <i className="las la-angle-down"></i></Link>
+                                            <ul className="dropdown list-unstyled">
+                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>{lang === "ar" ? (<> الدورات الخاصه للعرب</>) : (<>Courses For Arab Speakers</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-list"}>{lang === "ar" ? (<> الدورات الخاصه بغير الناطقين باللغة العربية</>) : (<>Courses For NON-Arabs</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-details"}>{lang === "ar" ? (<>تفاصيل الدورات</>) : (<>Course Details</>)}</Link></li>
+                                        </ul>*/}
+                                        
+                                        </li>
+                                        
+                                    
+                                   
                                     <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>مدّونة</>):(<>Blog</>)} <i className="las la-angle-down"></i></Link>
                                         <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-classic"}>{lang === "ar" ? (<>الأحداث</>):(<> Blog Classic</>)}</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-grid"}>{lang === "ar" ? (<>شبكة المدّونة</>):(<>Blog Grid</>)}</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-details"}>{lang === "ar" ? (<>تفاصيل المدّونة</>):(<>Blog Details</>)}</Link></li>
-                                        </ul>
+                                               {/* <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-classic"}>{lang === "ar" ? (<>مقالات</>) : (<>Articles</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-grid"}>{lang === "ar" ? (<>مقترحات للناطقين باللغه العربيه</>) : (<>Blog for Arab Speakers</>)}</Link></li>*/}
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-details"}>{lang === "ar" ? (<>مقترحات لغير الناطقين باللغه العربيه</>) : (<>Blog For non-Arabs</>)}</Link></li>
+                                            </ul>
                                     </li>
                                    
                                 </ul>
                                 <div className="apply-btn">
-                                    <a href="https://github.com/abda2050/projectMarkaz" target="_blank" rel="noopener noreferrer"><i className="las la-clipboard-list"></i>{lang === "ar" ? (<>قدّم الأن</>):(<>Apply Now</>)}</a>
+                                    <a href="https://github.com/abda2050/projectMarkaz" target="_blank" rel="noopener noreferrer"><i className="las la-clipboard-list"></i>{lang === "ar" ? (<>سجل الان </>):(<>Apply Now</>)}</a>
                                 </div>
                             </div>
                             <li className="list-inline-item">

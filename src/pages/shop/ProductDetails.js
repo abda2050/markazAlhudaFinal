@@ -200,7 +200,7 @@ class ProductDetails extends Component {
                                                     <div className="review-comments">
                                                         <div className="comment-box d-flex">
                                                             <div className="comment-image">
-                                                                <img src={process.env.PUBLIC_URL + `/assets/images/testimonial-2.jpg`} alt="" />
+                                                                <img src={process.env.PUBLIC_URL + `/assets/images/profile.jpg`} alt="" />
                                                             </div>
                                                             <div className="comment-content">
                                                                 <div className="comment-title">
@@ -246,7 +246,7 @@ class ProductDetails extends Component {
                                                         </div>
                                                         <div className="comment-box d-flex">
                                                             <div className="comment-image">
-                                                                <img src={process.env.PUBLIC_URL + `/assets/images/testimonial-2.jpg`} alt="" />
+                                                                <img src={process.env.PUBLIC_URL + `/assets/images/profile.jpg`} alt="" />
                                                             </div>
                                                             <div className="comment-content">
                                                                 <div className="comment-title">

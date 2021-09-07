@@ -58,7 +58,7 @@ class TeamSlider extends Component {
                                             <div className="team-item" key={i}>
                                                 <img src={process.env.PUBLIC_URL + `/assets/images/${data.personImage}`} alt="" className="img-fluid" />
                                                 <div className="img-content text-center">
-                                                {lang === "ar" ? ( <h5>{data.personNameArabic}</h5>):( <h4>{Datas.secTitle}</h4>)}
+                                                {lang === "ar" ? ( <h5>{data.personNameArabic}</h5>):( <h4>{data.personName}</h4>)}
                                                    
                                                     
                                                     <ul className="list-unstyled list-inline">

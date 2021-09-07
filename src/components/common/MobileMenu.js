@@ -124,24 +124,27 @@ function MobileMenu() {
             {/* Mobile Menu Sidebar */}
             <section className="mb-sidebar" id="mb-sidebar-body">
                 <div className="mb-sidebar-heading d-flex justify-content-between">
-                    <div><h5>Menu</h5></div>
+                {lang === "ar" ? ( <div><h5>القائمه</h5></div>) : ( <div><h5>Menu</h5></div> )}
+                   
                     <div><a href={process.env.PUBLIC_URL + "/"} id="close-mb-sidebar"><i className="las la-times"></i></a></div>
                 </div>
                 <div className="mb-sidebar-menu">
                     <div className="mb-menu-item">
                         <button className="mb-menu-button active">
-                            <p>Home <i className="las la-plus"></i></p>
+                        {lang === "ar" ? (<p>الصفحه الرئيسيه<i className="las la-plus"></i></p>) : ( <p>Home page<i className="las la-plus"></i></p>)}
+                          
                         </button>
                         <div className="mb-menu-content show">
                             <ul className="list-unstyled">
-                                <li><Link to={process.env.PUBLIC_URL + "/"}>{lang === "ar" ? (<>الصفحة الرئيسية</>):(<>Home 1</>)}</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/home-two"}>{lang === "ar" ? (<>الصفحة الرئيسية2</>):(<>Home 2</>)}</Link></li>
+                            <li className="nav-item active"><Link className="nav-link" to={process.env.PUBLIC_URL + "/"}>{lang === "ar" ? (<>قسم الناطقين باللغه العربيه </>) : (<>Arabic Section For Arabs</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/home-two"}>{lang === "ar" ? (<>قسم لغير الناطقين باللغه العربيه</>) : (<>English Section For Non - Arabs </>)}</Link></li>
                             </ul>
                         </div>
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button active">
-                            <p>Pages <i className="las la-plus"></i></p>
+                        {lang === "ar" ? (<p>الصفحات<i className="las la-plus"></i></p>) : ( <p>Pages<i className="las la-plus"></i></p>)}
+                            
                         </button>
                         <div className="mb-menu-content show">
                             <ul className="list-unstyled">
@@ -158,47 +161,31 @@ function MobileMenu() {
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button active">
-                            <p>Courses <i className="las la-plus"></i></p>
+                        {lang === "ar" ? (<p>ألدورات<i className="las la-plus"></i></p>) : ( <p>Courses <i className="las la-plus"></i></p>)}
+                           
                         </button>
                         <div className="mb-menu-content show">
                             <ul className="list-unstyled">
-                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>{lang === "ar" ? (<> قائمه الدورات</>) : (<>Course Grid</>)}</Link></li>
-                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-list"}>{lang === "ar" ? (<> تفاصيل الدورات</>) : (<>Course List</>)}</Link></li>
-                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-details"}>{lang === "ar" ? (<>الدورات</>) : (<>Course Details</>)}</Link></li>
+                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>{lang === "ar" ? (<> الدورات الخاصه للعرب</>) : (<>Courses For Arab Speakers</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-list"}>{lang === "ar" ? (<> الدورات الخاصه بغير الناطقين باللغة العربية</>) : (<>Courses For NON-Arabs</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-details"}>{lang === "ar" ? (<>تفاصيل الدورات</>) : (<>Course Details</>)}</Link></li>
                                 </ul>
                         </div>
                     </div>
+                   
+                        
+                      
+                  
                     <div className="mb-menu-item">
                         <button className="mb-menu-button">
-                            <p>Instructor <i className="las la-plus"></i></p>
+                        {lang === "ar" ? (<p>المقالات<i className="las la-plus"></i></p>) : ( <p>Blog <i className="las la-plus"></i></p>)}
+                            
                         </button>
                         <div className="mb-menu-content">
                             <ul className="list-unstyled">
-                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor"}>{lang === "ar" ? (<>المعلمات</>) : (<>Instructors</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor-details"}>{lang === "ar" ? (<> تفاصيل المعلمات </>) : (<>Instructors Details</>)}</Link></li>
-                                            </ul>
-                        </div>
-                    </div>
-                    <div className="mb-menu-item">
-                        <button className="mb-menu-button">
-                            <p>Event <i className="las la-plus"></i></p>
-                        </button>
-                        <div className="mb-menu-content">
-                            <ul className="list-unstyled">
-                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/events"}>{lang === "ar" ? (<>الأحداث</>) : (<>Events</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/event-details"}>{lang === "ar" ? (<>تفاصيل الحدث</>) : (<>Event Details</>)}</Link></li>
-                                            </ul>
-                        </div>
-                    </div>
-                    <div className="mb-menu-item">
-                        <button className="mb-menu-button">
-                            <p>Blog <i className="las la-plus"></i></p>
-                        </button>
-                        <div className="mb-menu-content">
-                            <ul className="list-unstyled">
-                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-classic"}>{lang === "ar" ? (<>مقالات</>) : (<>Blog Classic</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-grid"}>{lang === "ar" ? (<>شبكة بلوق</>) : (<>Blog Grid</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-details"}>{lang === "ar" ? (<>تفاصيل المدونة</>) : (<>Blog Details</>)}</Link></li>
+                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-classic"}>{lang === "ar" ? (<>مقالات</>) : (<>Articles</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-grid"}>{lang === "ar" ? (<>مقترحات للناطقين باللغه العربيه</>) : (<>Blog for Arab Speakers</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-details"}>{lang === "ar" ? (<>مقترحات لغير الناطقين باللغه العربيه</>) : (<>Blog For non-Arabs</>)}</Link></li>
                                             </ul>
                         </div>
                     </div>

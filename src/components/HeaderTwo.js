@@ -31,7 +31,7 @@ const HeaderTwo  = () => {
                                 <ul className="list-unstyled list-inline">
                                     <li className="list-inline-item"><i className="las la-phone"></i>+971 (04) 263 3338</li>
                                     <li className="list-inline-item"><i className="las la-envelope"></i>Markazalhudadubai@gmail.com</li>
-                                    <li className="list-inline-item"><i className="las la-map-marker"></i>Al MizharAl Mizhar 1 - Dubai</li>
+                                    <li className="list-inline-item"><i className="las la-map-marker"></i>Al Mamzar 1 - Dubai </li>
                                 </ul>
                             </div>
                             
@@ -56,10 +56,11 @@ const HeaderTwo  = () => {
                               
                                 <ul className="list-unstyled list-inline bar-social">
                                     <li className="list-inline-item"><a href="https://www.facebook.com/markazalhuda" target="_blank"rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                    
+                                    <li className="list-inline-item"><a href="https://twitter.com/markazalhuda_" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
+                                    <li className="list-inline-item"><a href="https://t.me/markazalhudaduba" target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram"></i></a></li>
                                     <li className="list-inline-item"><a href="https://www.instagram.com/markazalhuda/" target="_blank"rel="noopener noreferrer"><i className="fab fa-instagram"></i></a></li>
                                     <li className="list-inline-item"><a href="https://wa.me/+9710508522004" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a></li>
+                                    <li className="list-inline-item"><a href="https://www.youtube.com/channel/UCCrGSQOE6Yiq3LYXkLbma0g" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a></li>
                                 </ul>
                                 
 
@@ -90,8 +91,8 @@ const HeaderTwo  = () => {
                                         <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<> الصفحة الرئيسية </>):(<>HOME</>)}
                                          <i className="las la-angle-down"></i></Link>
                                         <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/"}>{lang === "ar"?(<>الرئيسة 1</>):(<>Home Style 1</>)}</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/home-two"}>{lang === "ar"?(<>الرئيسة 2</>):(<>Home Style 2</>)}</Link></li>
+                                        <li className="nav-item active"><Link className="nav-link" to={process.env.PUBLIC_URL + "/"}>{lang === "ar" ? (<>قسم الناطقين باللغه العربيه </>) : (<>Arabic Section For Arabs</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/home-two"}>{lang === "ar" ? (<>قسم لغير الناطقين باللغه العربيه</>) : (<>English Section For Non - Arabs </>)}</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown">
@@ -106,29 +107,24 @@ const HeaderTwo  = () => {
                                         </ul>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الدورات</>) : (<>Courses</>)} <i className="las la-angle-down"></i></Link>
+                                            {/*<Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الدورات</>) : (<>Courses</>)} <i className="las la-angle-down"></i></Link>
                                             <ul className="dropdown list-unstyled">
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>{lang === "ar" ? (<> قائمه الدورات</>) : (<>Course Grid</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-list"}>{lang === "ar" ? (<> تفاصيل الدورات</>) : (<>Course List</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-details"}>{lang === "ar" ? (<>الدورات</>) : (<>Course Details</>)}</Link></li>
-                                            </ul>
+                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>{lang === "ar" ? (<> الدورات الخاصه للعرب</>) : (<>Courses For Arab Speakers</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-list"}>{lang === "ar" ? (<> الدورات الخاصه بغير الناطقين باللغة العربية</>) : (<>Courses For NON-Arabs</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-details"}>{lang === "ar" ? (<>تفاصيل الدورات</>) : (<>Course Details</>)}</Link></li>
+    </ul>*/}
                                         </li>
                                        
-                                        <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>الأحداث</>) : (<>Events</>)} <i className="las la-angle-down"></i></Link>
-                                            <ul className="dropdown list-unstyled">
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/events"}>{lang === "ar" ? (<>الأحداث</>) : (<>Events</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/event-details"}>{lang === "ar" ? (<>تفاصيل الحدث</>) : (<>Event Details</>)}</Link></li>
-                                            </ul>
-                                    </li>
+                                       
+                                    
                                     <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>مقالات</>) : (<>Blog</>)} <i className="las la-angle-down"></i></Link>
+                                            <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">{lang === "ar" ? (<>المّدونة</>) : (<>Blog</>)} <i className="las la-angle-down"></i></Link>
                                             <ul className="dropdown list-unstyled">
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-classic"}>{lang === "ar" ? (<>مقالات</>) : (<>Blog Classic</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-grid"}>{lang === "ar" ? (<>شبكة بلوق</>) : (<>Blog Grid</>)}</Link></li>
-                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-details"}>{lang === "ar" ? (<>تفاصيل المدونة</>) : (<>Blog Details</>)}</Link></li>
+                                                {/* <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-classic"}>{lang === "ar" ? (<>مقالات</>) : (<>Articles</>)}</Link></li>
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-grid"}>{lang === "ar" ? (<>مقترحات للناطقين باللغه العربيه</>) : (<>Blog for Arab Speakers</>)}</Link></li>*/}
+                                                <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-details"}>{lang === "ar" ? (<>مقترحات لغير الناطقين باللغه العربيه</>) : (<>Blog For non-Arabs</>)}</Link></li>
                                             </ul>
-                                    </li>
+                                        </li>
                                     
                                 </ul>
                                 <ul>

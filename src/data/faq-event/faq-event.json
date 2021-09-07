@@ -31,18 +31,25 @@
     "faqDataList": [
         {
             "id": "1",
-            "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
+            "faqTitle": "Celebration",
+            "faqTitleArabic": "ألاحتفال ",
+            "faqDesc": "The celebration of achievement is a well-deserved appreciation for our hard working people, and this is evident in the annual final ceremony, which is in fact a sincere expression of the distinguished program offered by the Center to its employees..",
+            "faqDescArabic": "الإحتفال بالإنجاز هو تقدير مستحق للعاملين معنا بجد، ويبدو ذلك جليّا في الحفل النهائي السنوي، والذي يعد في الحقيقة تعبير صادق عن برنامج متميز يقدمه المركز لموظفيه."
+            
         },
         {
             "id": "2",
-            "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid."
+            "faqTitle": "Digital learning at Al-Huda Center for the memorization of the Holy Quran",
+            "faqTitleArabic": "التعلم الرقمي في مركز الهدى لتحفيظ القرآن الكريم",
+            "faqDesc": "We want our members at Al-Huda Center for the memorization of the Noble Qur’an to enjoy digital culture, and be distinguished by the ease of dealing with the technical knowledge society. This stems from our awareness of the need to balance traditional education with 21st century technology. Hence, technology has become an important part in providing our services, not only as an educational tool, but as a platform for collaboration and creativity.            ",
+            "faqDescArabic": "نريد لمنتسبينا في مركز الهدى لتحفيظ القرآن الكريم أن يتمتعوا بالثقافة الرقمية، ويتميزوا بسهولة التعامل مع مجتمع المعرفة التقنية. وذلك نابع من إدراكنا بضرورة الموازنة بين التعليم التقليدي وتقنيات القرن الحادي والعشرين التكنولوجية. ومن هنا أصبحت التكنولوجيا جزءًا مهما في تقديم خدماتنا، لا تقف عند كونها وسيلة تعليمية، بل يستخدم كمنصة للتعاون والإبداع"
         },
         {
             "id": "3",
             "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
+            "faqTitleArabic": "I don't know What should I write here?",
+            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon.",
+            "faqDescArabic": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
         }
     ]
 }

@@ -9,19 +9,14 @@ class RecentPost extends Component {
             <Styles>
                 {/* Recent Post */}
                 <div className="recent-blog">
-                    <h5>Recent Post</h5>
+                    <h5>M A R K A Z AL HUDA</h5>
                     <div className="blog-items">
                         {
                             Datas.map((data, i) => (
 
                                 <div className="item-box d-flex" key={i}>
-                                    <div className="item-img">
-                                        <Link to={data.blogLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.imgUrl}`} alt="" /></Link>
-                                    </div>
-                                    <div className="item-content">
-                                        <p className="title"><Link to={process.env.PUBLIC_URL + data.blogLink}>{data.blogTitle}</Link></p>
-                                        <span className="date">{data.blogDate}</span>
-                                    </div>
+                                   
+                                    
                                 </div>
 
                             ))
@@ -31,6 +26,6 @@ class RecentPost extends Component {
             </Styles>
         )
     }
-}
+} 
 
 export default RecentPost

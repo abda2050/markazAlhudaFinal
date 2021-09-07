@@ -1,42 +1,65 @@
 [
     {
         "id": "1",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+        "faqTitleArabic": "ما هي أوقات الدوام في المركز ؟",
+        "faqTitle": "What are the working hours of the center?",
+        "faqDescArabic": "الدوام الحضوري -- الفترة الصباحية -- حلقات السبت و الثلاثاء من الساعة 9 صباحاً إلى الساعة 12 ظهراً- حلقات الاحد و الاربعاء من الساعة 9 صباحاً إلى الساعة 12 ظهراً -حلقات الاثنين و الخميس من الساعة 9 صباحاً إلى الساعة 12ظهراً -- الفترة المسائية --- يومي الاحد و الثلاثاء من الساعة 04:30 عصراً إلى الساعة 06:30 مساءاً --  الدوام عن بعد --- يومياً من السبت إلى الخميس من الساعة 8 صباحاً إلى الساعة 8 مساءاً -- ملاحظة : قد تتغير أيام و أوقات الدوام أثناء الدورات المكثفة في الإجازات المدرسية",
+        "faqDesc": "Attendance time : (Morning time) Saturday and Tuesday episodes from 9 am to 12 pm (Sunday and Wednesday) episodes from 9 am to 12 pm ( Monday and Thursday) episodes from 9 am to 12 pm  (Evening period)  On Sundays and Tuesdays from 4:30 pm to 6:30 pm  (working remotely)  Daily from Saturday to Thursday from 8 am to 8 pm  (Note): Working days and times may change during intensive courses in school holidays"
     },
     {
         "id": "2",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+        "faqTitleArabic": " وصلتني رسالة أنني على قائمة الانتظار نظرا على لعدم توفر مقاعد، متى يمكنني التسجيل مرة اخرى؟",
+        "faqTitle": "I received a message that I am on the waiting list due to the lack of seats, when can I register again?",
+        "faqDescArabic": "سيتم التواصل مع المسجلين الذين تم الاعتذار إليهم، في حال ة توفر شاغر في الحلقات،تبعا لاسبقية التسجيل",
+        "faqDesc": "The registrants who have been apologized will be contacted, if there is a vacancy in the episodes, according to the precedence of registration"
     },
     {
         "id": "3",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+        "faqTitleArabic": "قمت بالتسجيل عبر الموقع فما هي الخطوة التالية؟",
+        "faqTitle": "I registered through the site, what is the next step?",
+        "faqDescArabic": "سيتم التواصل مع المسجلين عن طريق الهاتف، أو ارسال رسالة نصية على رقم الهاتف المسجل بالاستمارة خلال ١٠ ايام عمل على الأكثر لتحديد موعد لإجراء المقابلة الشخصية،أو الاعتذار بسبب عدم وجود شاغر",
+        "faqDesc": "The registrants will be contacted by phone, or by sending a text message to the phone number registered in the form within 10 working days at most to set an appointment for the personal interview, or to apologize for the lack of vacancy"
     },
     {
         "id": "4",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+        "faqTitleArabic": "هل هناك انشطة مصاحبة لحلقات التحفيظ؟",
+        "faqTitle": "Are there activities accompanying the memorization sessions?        ",
+        "faqDescArabic": "نعم , تتوفر بعض الأنشطة متمثلة في محاضرات علمية و دينية و رحلات ترفيهية", 
+        "faqDesc": "Yes , Some activities are available such as scientific and religious lectures and recreational trips"
     },
     {
         "id": "5",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+        "faqTitleArabic": "هل توجد شروط للتسجيل في حلقات السند؟",
+        "faqTitle": "Are there conditions for registration in the bond rings?",
+        "faqDescArabic": "نعم - ختم القرآن مع التمكن من الحفظ و التجويد - اجتياز اختبار في القرآن الكريم بمعدل ٩٠%  - حفظ متني التحفة و الجزرية أو الالتحاق بدورة لحفظهما قريبا",
+        "faqDesc": "Yes - Seal the Qur'an with the ability to memorize and intonation Passing a test in the Noble Qur’an with an average of 90% - Save the masterpiece and the island, or join a course to memorize them soon          "
     },
     {
         "id": "6",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+        "faqTitleArabic": "هل هناك شروط للتسجيل في حلقات تحفيظ القرآن الكريم؟",
+        "faqTitle": "Are there conditions for registration in the memorization of the Noble Qur’an episodes?",
+        "faqDescArabic": "نعم ،يتم القبول اذا توافر مقعد شاغر بالحلقات ، واجتياز المقابلة الشخصية",
+        "faqDesc": "Yes, admission will be made if there is a vacant seat in the circles, and the personal interview is passed"
     },
     {
         "id": "7",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+        "faqTitleArabic": " هل يوجد رسوم لتحفيظ القرآن الكريم؟",
+        "faqTitle": "Are there fees for memorizing the Holy Quran?",
+        "faqDescArabic": "جميع حلقات تحفيظ القرآن الكريم بالمركز مجانية ،ولا تفرض عليها اي رسوم",
+        "faqDesc": "All Quran memorization sessions at the center are free of charge, and no fees are charged"
     },
     {
         "id": "8",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+        "faqTitleArabic": "لا استطيع حضور الحلقات فهل تتوفر وسائل للتحفيظ عن بعد ؟",
+        "faqTitle": "I cannot attend the seminars. Are there means for remote memorization?",
+        "faqDescArabic": "نعم يتوفر لدى المركز حلقات تحفيظ عن بعد",
+        "faqDesc": "Yes, the center has remote memorization sessions"
+    },
+    {
+        "id": "9",
+        "faqTitleArabic": " ما هو أقل سن مسموح للقبول بحلقات التحفيظ ؟ وهل يوجد حد أقصى للسن؟",
+        "faqTitle": "What is the minimum age allowed to accept memorization sessions? Is there an age limit?",
+        "faqDescArabic": "يتم قبول الطالبات من سن ٦ سنوات كحد أدنى ، ولا يوجد حد أقصى لسن القبول",
+        "faqDesc": "Students are accepted from the age of 6 years as a minimum, and there is no maximum age for admission"
     }
 ]

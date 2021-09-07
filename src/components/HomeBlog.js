@@ -40,11 +40,7 @@ class HomeBlog extends Component {
                                                             </div>
                                                             <div className="blog-desk">
                                                                 <p>{data.postExcerpt}</p>
-                                                                <ul className="list-unstyled list-inline">
-                                                                    <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + data.authorLink}><i className="las la-user"></i> Jhon</Link></li>
-                                                                    <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + data.commentLink}><i className="las la-comment"></i> 19</Link></li>
-                                                                    <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + data.likeLink}><i className="las la-thumbs-up"></i> 37</Link></li>
-                                                                </ul>
+                                                              
                                                             </div>
                                                         </div>
                                                     </div>

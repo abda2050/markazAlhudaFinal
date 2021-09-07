@@ -41,7 +41,7 @@ class About extends Component {
                     <TestimonialSlider />
 
                     {/* Faq & Event Area */}
-                    <FaqEvent />
+                   
 
                     {/* Footer 2 */}
                     <FooterTwo />

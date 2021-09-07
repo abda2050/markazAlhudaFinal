@@ -36,7 +36,7 @@ class AboutUs extends Component {
                                     <img src={process.env.PUBLIC_URL + `/assets/images/${Datas.mainImage}`} className="main-img" alt="" />
                                     <img src={process.env.PUBLIC_URL + "/assets/images/pattern.png"} className="pattern-img" alt="" />
                                     <div className="video-player" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.videoBackground})` }}>
-                                        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='uXFUl0KcIkA' onClose={() => this.setState({ isOpen: false })} />
+                                        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ttwLUZL-pvc' onClose={() => this.setState({ isOpen: false })} />
                                         <button onClick={this.openModal} className="play-button"><i className="las la-play"></i></button>
                                     </div>
                                 </div>
@@ -58,26 +58,26 @@ class AboutUs extends Component {
                                     <Row>
                                         <Col sm="4">
                                             <div className="counter-box box1 text-center">
-                                                <h3><CountUp end={970} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
+                                                <h3><CountUp end={1250} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
                                                 {lang === "ar" ? (<p>الطلاب السعداء</p>) : (<p>Happy Students</p>)}
 
                                             </div>
                                         </Col>
                                         <Col sm="4">
                                             <div className="counter-box box2 text-center">
-                                                <h3><CountUp end={130} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
+                                                <h3><CountUp end={55} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
 
                                                 {lang === "ar" ? (<p>المعلمون</p>) : (<p>Teachers</p>)}
                                             </div>
                                         </Col>
                                         <Col sm="4">
                                             <div className="counter-box box3 text-center">
-                                                <h3><CountUp end={340} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
+                                                <h3><CountUp end={42} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
                                                 {lang === "ar" ? (<p>الدورات</p>) : (<p>Courses</p>)}
                                             </div>
                                         </Col>
                                     </Row>
-                                    <Link className="readmore-btn" to={process.env.PUBLIC_URL + "/about"}>{lang === "ar" ? (<>!قدّم الأن</>) : (<>Apply Now!</>)}</Link>
+                                    <Link className="readmore-btn" to={process.env.PUBLIC_URL + "/about"}>{lang === "ar" ? (<>أقراء المزيد</>) : (<>Read More</>)}</Link>
                                 </div>
                             </Col>
                         </Row>

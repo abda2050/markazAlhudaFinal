@@ -96,7 +96,7 @@ function Contact() {
                                     </div>
                                     <div className="box-content">
                                         <h5>{lang === "ar" ? (<>موقعنا</>) : (<>Our Location</>)}</h5>
-                                        <p>Al MizharAl Mizhar 1 - Dubai. | Al Mamzar</p>
+                                        <p>AL Mamzar 1 - Dubaihar AL Mamzar 1 - Dubai. | Al Mamzar</p>
                                     </div>
                                 </div>
                                 <div className="contact-icon-box d-flex">
@@ -113,16 +113,21 @@ function Contact() {
                                         <i className="las la-phone"></i>
                                     </div>
                                     <div className="box-content">
-                                        <h5>{lang === "ar" ? (<>رقم الهاتف</>) : (<>Phone Number</>)}</h5>
-                                        <p>+971 (04) 263 3338<br/>+971 (04) 265 7438<br/>+971 (056) 851 1618<br/>+971 (050) 852 2004</p>
+                                        <h5>{lang === "ar" ? (<>ارقام قسم العرب </>) : (<>Phone Number</>)}</h5>
+                                        <p>+971 (04) 263 3338 -- (فرع الممزر )<br/>(Mamzar branch)<br/>+971 (04) 265 7438 -- (فرع المزهر)<br/>(Mizhar branch)<br/>+971 (056) 851 1618 <br/>+971 (050) 852 2004<br/>+971 (050) 466 9770</p>
+                                        <div className="box-content">
+                                        <h5>{lang === "ar" ? (<>أرقام قسم لغير الناطقين باللغه العربيه</>) : (<>Section numbers for non-Arabic speakers</>)}</h5>
                                     </div>
                                 </div>
+                                </div>
+                             
                                 <div className="contact-social">
                                     <ul className="social list-unstyled list-inline">
                                         <li className="list-inline-item"><a href="https://www.facebook.com/markazalhuda" target="_blank"rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
+                                        <li className="list-inline-item"><a href="https://twitter.com/markazalhuda_" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
                                         
+                                        <li className="list-inline-item"><a href="https://www.youtube.com/channel/UCCrGSQOE6Yiq3LYXkLbma0g" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a></li>
+                                        <li className="list-inline-item"><a href="https://t.me/markazalhudaduba" target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram"></i></a></li>
                                     </ul>
                                 </div>
                             </Col>

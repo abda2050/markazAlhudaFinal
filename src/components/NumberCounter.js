@@ -19,13 +19,8 @@ class NumberCounter extends Component {
                             </Col>
                             <Col md="3" xs="6">
                                 <div className="counter-box">
-                                    <div className="counter-icon">
-                                        <i className="las la-university"></i>
-                                    </div>
-                                    <div className="counter-number">
-                                        <h4><CountUp end={1170} duration={5} delay={1.5} />+</h4>
-                                        <p>University Courses</p>
-                                    </div>
+                                   
+                                   
                                 </div>
                             </Col>
                             <Col md="3" xs="6">
@@ -34,20 +29,14 @@ class NumberCounter extends Component {
                                         <i className="las la-graduation-cap"></i>
                                     </div>
                                     <div className="counter-number">
-                                        <h4><CountUp end={2309} duration={5} delay={1.5} />+</h4>
-                                        <p>Total Students</p>
+                                        <h4><CountUp end={2500} duration={5} delay={1.5} />+</h4>
+                                        <p> Students</p>
                                     </div>
                                 </div>
                             </Col>
                             <Col md="3" xs="6">
                                 <div className="counter-box">
-                                    <div className="counter-icon">
-                                        <i className="las la-award"></i>
-                                    </div>
-                                    <div className="counter-number">
-                                        <h4><CountUp end={590} duration={5} delay={1.5} />+</h4>
-                                        <p>Awards Wins</p>
-                                    </div>
+                                  
                                 </div>
                             </Col>
                             <Col md="3" xs="6">
@@ -56,8 +45,8 @@ class NumberCounter extends Component {
                                         <i className="las la-book-reader"></i>
                                     </div>
                                     <div className="counter-number">
-                                        <h4><CountUp end={3790} duration={5} delay={1.5} />+</h4>
-                                        <p>Library Books</p>
+                                        <h4><CountUp end={20} duration={5} delay={1.5} />+</h4>
+                                        <p>Teachers</p>
                                     </div>
                                 </div>
                             </Col>

@@ -4,9 +4,12 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import Swiper from 'react-id-swiper';
 import { Styles } from "./styles/courseSlider.js";
+import {LangContext} from "./common/contexts/LangContext";
 
 class CourseSlider extends Component {
+    static contextType = LangContext;
     render() {
+        const lang = this.context.lang;
         const settings = {
             slidesPerView: 3,
             loop: true,
@@ -32,7 +35,7 @@ class CourseSlider extends Component {
                     slidesPerView: 2
                 },
                 992: {
-                    slidesPerView: 3
+                    slidesPerView: 4
                 }
             }
         };
@@ -45,7 +48,8 @@ class CourseSlider extends Component {
                         <Row>
                             <Col md="12">
                                 <div className="sec-title text-center">
-                                    <h4>{Datas.secTitle}</h4>
+                                {lang === "ar" ? ( <h4>{Datas.secTitleArabic}</h4>) : ( <h4>{Datas.secTitle}</h4>)}
+                                   
                                 </div>
                             </Col>
                             <Col md="12" className="course-slider">
@@ -61,16 +65,19 @@ class CourseSlider extends Component {
                                                                 <img src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`} alt="" />
                                                             </div>
                                                             <div className="title">
-                                                                <p>{data.authorName}</p>
-                                                                <span>{data.authorCourses}</span>
+                                                            {lang === "ar" ? ( <p>{data.authorNameArabic}</p>) : (<p>{data.authorName}</p> )}
+                                                            {lang === "ar" ? ( <span>{data.authorCoursesArabic}</span> ) : (<span>{data.authorCourses}</span> )}
+                                                               
                                                             </div>
                                                         </div>
                                                        
                                                     </div>
                                                 </Link>
                                                 <div className="course-content">
-                                                    <h6 className="heading"><Link to={process.env.PUBLIC_URL + data.courseLink}>{data.courseTitle}</Link></h6>
-                                                    <p className="desc">{data.courseDesc}</p>
+                                                {lang === "ar" ? ( <h6 className="heading"><Link to={process.env.PUBLIC_URL + data.courseLink}>{data.courseTitleArabic}</Link></h6>) : ( <h6 className="heading"><Link to={process.env.PUBLIC_URL + data.courseLink}>{data.courseTitle}</Link></h6> )}
+                                                {lang === "ar" ? (  <p className="desc">{data.courseDescArabic}</p> ) : ( <p className="desc">{data.courseDesc}</p> )}
+                                                               
+                                             
                                                     <div className="course-face d-flex justify-content-between">
                                                         <div className="duration">
                                                             <p><i className="las la-clock"></i>120</p>
@@ -86,9 +93,7 @@ class CourseSlider extends Component {
                                                                 <li className="list-inline-item">(4.5)</li>
                                                             </ul>
                                                         </div>
-                                                        <div className="student">
-                                                            <p><i className="las la-chair"></i>60</p>
-                                                        </div>
+                                                       
                                                     </div>
                                                 </div>
                                             </div>

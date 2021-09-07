@@ -30,11 +30,8 @@ class Faq extends Component {
                                 <Col md="12">
                                     <Tab.Container defaultActiveKey="general">
                                         <Nav className="justify-content-center">
-                                            <Nav.Item><Nav.Link eventKey="general">{lang === "ar" ? (<>عام</>):(<>General</>)}</Nav.Link></Nav.Item>
-                                            <Nav.Item><Nav.Link eventKey="author">{lang === "ar" ? (<>عام</>):(<>Author</>)}</Nav.Link></Nav.Item>
-                                            <Nav.Item><Nav.Link eventKey="buyer">{lang === "ar" ? (<>عام</>):(<>Buyer</>)}</Nav.Link></Nav.Item>
-                                            <Nav.Item><Nav.Link eventKey="price">{lang === "ar" ? (<>عام</>):(<>Pricing</>)}</Nav.Link></Nav.Item>
-                                            <Nav.Item><Nav.Link eventKey="payment">{lang === "ar" ? (<>عام</>):(<>Payment</>)}</Nav.Link></Nav.Item>
+                                            <Nav.Item><Nav.Link eventKey="general">{lang === "ar" ? (<>أسئله عامه</>):(<>General Questions</>)}</Nav.Link></Nav.Item>
+                                       
                                         </Nav>
                                         <Tab.Content>
                                             <Tab.Pane eventKey="general">
@@ -45,10 +42,12 @@ class Faq extends Component {
                                                                 <div className="faq-item">
                                                                     <div className="faq-title d-flex">
                                                                         <div className="title-icon"><span>{lang === "ar" ? (<>ك</>):(<>Q</>)}</span></div>
-                                                                        <div className="title-text"><p>{data.faqTitle}</p></div>
+                                                                        {lang === "ar" ? ( <div className="title-text"><p>{data.faqTitleArabic}</p></div>):(<div className="title-text"><p>{data.faqTitle}</p></div>)}
+                                                                       
                                                                     </div>
                                                                     <div className="faq-desc">
-                                                                        <p>{data.faqDesc}</p>
+                                                                    {lang === "ar" ? (<p>{data.faqDescArabic}</p>):(<p>{data.faqDesc}</p>)}
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </Col>
@@ -64,10 +63,11 @@ class Faq extends Component {
                                                                 <div className="faq-item">
                                                                     <div className="faq-title d-flex">
                                                                         <div className="title-icon"><span>Q</span></div>
-                                                                        <div className="title-text"><p>{data.faqTitle}</p></div>
+                                                                        {lang === "ar" ? (  <div className="title-text"><p>{data.faqTitleArabic}</p></div>):( <div className="title-text"><p>{data.faqTitle}</p></div>)}
+                                                                      
                                                                     </div>
                                                                     <div className="faq-desc">
-                                                                        <p>{data.faqDesc}</p>
+                                                                    {lang === "ar" ? (<p>{data.faqDescArabic}</p>):(<p>{data.faqDesc}</p>)}
                                                                     </div>
                                                                 </div>
                                                             </Col>
@@ -83,10 +83,11 @@ class Faq extends Component {
                                                                 <div className="faq-item">
                                                                     <div className="faq-title d-flex">
                                                                         <div className="title-icon"><span>Q</span></div>
-                                                                        <div className="title-text"><p>{data.faqTitle}</p></div>
+                                                                        {lang === "ar" ? (  <div className="title-text"><p>{data.faqTitleArabic}</p></div>):( <div className="title-text"><p>{data.faqTitle}</p></div>)}
+                                                                        
                                                                     </div>
                                                                     <div className="faq-desc">
-                                                                        <p>{data.faqDesc}</p>
+                                                                    {lang === "ar" ? (<p>{data.faqDescArabic}</p>):(<p>{data.faqDesc}</p>)}
                                                                     </div>
                                                                 </div>
                                                             </Col>
@@ -102,10 +103,10 @@ class Faq extends Component {
                                                                 <div className="faq-item">
                                                                     <div className="faq-title d-flex">
                                                                         <div className="title-icon"><span>Q</span></div>
-                                                                        <div className="title-text"><p>{data.faqTitle}</p></div>
+                                                                        {lang === "ar" ? (  <div className="title-text"><p>{data.faqTitleArabic}</p></div>):( <div className="title-text"><p>{data.faqTitle}</p></div>)}
                                                                     </div>
                                                                     <div className="faq-desc">
-                                                                        <p>{data.faqDesc}</p>
+                                                                    {lang === "ar" ? (<p>{data.faqDescArabic}</p>):(<p>{data.faqDesc}</p>)}
                                                                     </div>
                                                                 </div>
                                                             </Col>
@@ -121,10 +122,11 @@ class Faq extends Component {
                                                                 <div className="faq-item">
                                                                     <div className="faq-title d-flex">
                                                                         <div className="title-icon"><span>Q</span></div>
-                                                                        <div className="title-text"><p>{data.faqTitle}</p></div>
+                                                                        {lang === "ar" ? (  <div className="title-text"><p>{data.faqTitleArabic}</p></div>):( <div className="title-text"><p>{data.faqTitle}</p></div>)}
+                                                                       
                                                                     </div>
                                                                     <div className="faq-desc">
-                                                                        <p>{data.faqDesc}</p>
+                                                                    {lang === "ar" ? (<p>{data.faqDescArabic}</p>):(<p>{data.faqDesc}</p>)}
                                                                     </div>
                                                                 </div>
                                                             </Col>

@@ -1,55 +1,21 @@
 {
-    "secTitle": "Lets See What Our Valuable Students Think About Us. Their Testimonials.",
-    "secTitleArabic": "كلمات شرفيه",
+    "secTitle": "Director's word.",
+    "secTitleArabic": "كلمه المدير التنفيذي",
     "backgroundImage": "vd-bg.jpg",
     "dataList": [
         {
             "id": "1",
-            "testimonialTitle": "It is great to be a part of this community 1.",
-            "testimonialTitleArabic": "1كييييييييكيكيككيكيكيكيكيكي",
-            "testimonialDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitation maior. Placeat repellat, et totam optio. Sequi qui laborum ratione cumque tempo totam voluptatum.",
-            "testimonialDescArabic": "سسسسسسسسسسييييي",
-            "authorImg": "testimonial-1.jpg",
-            "authorName": "David Show",
-            "authorNameArabic": "سسسسسسسس",
-            "authorTitle": "Developer",
-            "authorTitleArabic": "اايايايايااي"
-        },
-        {
-            "id": "2",
-            "testimonialTitle": "It is great to be a part of this community 2.",
-            "testimonialTitleArabic": "2سسسسيييي",
-            "testimonialDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitation maior. Placeat repellat, et totam optio. Sequi qui laborum ratione cumque tempo totam voluptatum.",
-            "testimonialDescArabic": "ييييييي",
-            "authorImg": "testimonial-2.jpg",
-            "authorName": "Tom Parker",
-            "authorNameArabic": "يييييييي",
-            "authorTitle": "Programmer",
-            "authorTitleArabic": "ييييييي"
-        },
-        {
-            "id": "3",
-            "testimonialTitle": "It is great to be a part of this community 3.",
-            "testimonialTitleArabic": "3سسسسيييي",
-            "testimonialDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitation maior. Placeat repellat, et totam optio. Sequi qui laborum ratione cumque tempo totam voluptatum.",
-            "testimonialDescArabic": "ييييييي",
-            "authorImg": "testimonial-2.jpg",
-            "authorName": "Tom Parker",
-            "authorNameArabic": "يييييييي",
-            "authorTitle": "Programmer",
-            "authorTitleArabic": "ييييييي"
-        },
-        {
-            "id": "4",
-            "testimonialTitle": "It is great to be a part of this community 4.",
-            "testimonialTitleArabic": "سسسسيييي 4",
-            "testimonialDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitation maior. Placeat repellat, et totam optio. Sequi qui laborum ratione cumque tempo totam voluptatum.",
-            "testimonialDescArabic": "ييييييي",
-            "authorImg": "testimonial-2.jpg",
-            "authorName": "Tom Parker",
-            "authorNameArabic": "يييييييي",
-            "authorTitle": "Programmer",
-            "authorTitleArabic": "ييييييي"
+            "testimonialTitle": "Praise be to God, who revealed the book as a mercy to the worlds, and may prayers and peace be upon our Prophet, the most honorable of the messengers, his family, his companions and all the followers. And then... The status of the Noble Qur’an in the hearts of Muslims is a great place. their world, and their last; God - the Most High - said: (وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِكُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً وَبُشْرَى لِلْمُسْلِمِينَ)",
+            "testimonialTitleArabic": " الحمد لله الذي أنزل الكتاب رحمة للعالمين والصلاة والسلام على نبينا أشرف المرسلين وآله وصحبه والتابعين أجمعين أما بعد ...إن مكانة القرآن الكريم في نفوس المسلمين هي مكانة عظيمة ، فالقرآن هو دستور الله وشريعته التي أنزل فيها كلّ ما يحتاج إليه الناس في أمور دينهم، ودُنياهم، وآخرتهم؛ قال الله -تعالى-: (وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِكُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً وَبُشْرَى لِلْمُسْلِمِينَ)",
+            "testimonialDesc": " كما أن تلاوته تعد عبادة عظيمة، وسبب في ارتقاء العبد في مراتب الدُّنيا والآخرة، وقُربة جليلةٌ يترتّب عليها أجر عظيم، حيث ينال مَن اجتهد في ترتيل سور القرآن وآياته، وجوّد بها صوته مكانةً رفيعة ودرجة عالية، ففي الحديث الصحيح عن السيّدة عائشة -رضي الله عنه- أنّ رسول الله -صلى الله عليه وسلم قال: (الْماهِرُ بالقُرْآنِ مع السَّفَرَةِ الكِرامِ البَرَرَةِ، والذي يَقْرَأُ القُرْآنَ ويَتَتَعْتَعُ فِيهِ، وهو عليه شاقٌّ، له أجْرانِ) والجدير بالذكر أن مركز الهدى لتحفيظ القرآن الكريم تأسس ليكون له الدور المجتمعي في نشر العلم القرآني، بفضل الله أولاً ثم بفضل الدعم اللامحدود لحكومتنا الرشيدة التي سخرت لنا كل الصعوبات لنصل إلى المستوى الذي نحن عليه اليوم .. إن هذا النجاح الذي حققناه هو انعكاس واضح لرؤية صاحب السمو الشيخ خليفة بن زايد حفظه الله وصاحب السمو الشيخ محمد بن راشد آل مكتوم رعاه الله، وبتوجيهات حكيمة من المسؤولين في دائرة  الشؤون الإسلامية والعمل الخيري بدبي. كما أن الكادر الإداري والكادر الفني من موظفين ومتطوعين كانوا ومازالوا متفانين في أعمالهم وبفضلهم بعد الله سبحانه وتعالى نشهد اليوم حصيلة عمل مثمر ودؤوب تكاتفت على أدائه نفوس وهمم عالية. فهنيئا بهم الخيريّة التي وعد بها نبي الأمة:{خيركم من تعلّم القرآن وعلّمه}. نسأل الله سبحانه أن يوفقنا إلى ما فيه الخير والصلاح وأن يجعلنا جميعا من أهله وخاصته، وأن يهدينا إلى الحق والصواب ونهج السلف في اتباع الكتاب والسنة، وأن يمكّن المسليم من تلاوة كتاب الله وحفظه وتدبره والعمل به، وأن يجزي القائمين على مراكز تحفيظ القرآن الكريم والعاملين فيها والمنتسبين إليها خير الجزاء",
+            "testimonialDescArabic": "  كما أن تلاوته تعد عبادة عظيمة، وسبب في ارتقاء العبد في مراتب الدُّنيا والآخرة، وقُربة جليلةٌ يترتّب عليها أجر عظيم، حيث ينال مَن اجتهد في ترتيل سور القرآن وآياته، وجوّد بها صوته مكانةً رفيعة ودرجة عالية، ففي الحديث الصحيح عن السيّدة عائشة -رضي الله عنه- أنّ رسول الله -صلى الله عليه وسلم قال: (الْماهِرُ بالقُرْآنِ مع السَّفَرَةِ الكِرامِ البَرَرَةِ، والذي يَقْرَأُ القُرْآنَ ويَتَتَعْتَعُ فِيهِ، وهو عليه شاقٌّ، له أجْرانِ) والجدير بالذكر أن مركز الهدى لتحفيظ القرآن الكريم تأسس ليكون له الدور المجتمعي في نشر العلم القرآني، بفضل الله أولاً ثم بفضل الدعم اللامحدود لحكومتنا الرشيدة التي سخرت لنا كل الصعوبات لنصل إلى المستوى الذي نحن عليه اليوم .. إن هذا النجاح الذي حققناه هو انعكاس واضح لرؤية صاحب السمو الشيخ خليفة بن زايد حفظه الله وصاحب السمو الشيخ محمد بن راشد آل مكتوم رعاه الله، وبتوجيهات حكيمة من المسؤولين في دائرة  الشؤون الإسلامية والعمل الخيري بدبي. كما أن الكادر الإداري والكادر الفني من موظفين ومتطوعين كانوا ومازالوا متفانين في أعمالهم وبفضلهم بعد الله سبحانه وتعالى نشهد اليوم حصيلة عمل مثمر ودؤوب تكاتفت على أدائه نفوس وهمم عالية. فهنيئا بهم الخيريّة التي وعد بها نبي الأمة:{خيركم من تعلّم القرآن وعلّمه}. نسأل الله سبحانه أن يوفقنا إلى ما فيه الخير والصلاح وأن يجعلنا جميعا من أهله وخاصته، وأن يهدينا إلى الحق والصواب ونهج السلف في اتباع الكتاب والسنة، وأن يمكّن المسليم من تلاوة كتاب الله وحفظه وتدبره والعمل به، وأن يجزي القائمين على مراكز تحفيظ القرآن الكريم والعاملين فيها والمنتسبين إليها خير الجزاء",
+            "authorImg": "profile.jpg",
+            "authorNameArabic": "ميسون يوسف السركال",
+            "authorName": "Maysoon Youssef Al Serkal",
+            "authorTitleArabic": "المدير التنفيذي",
+            "authorTitle": "Executive Director            "
+            
         }
+       
     ]
 }

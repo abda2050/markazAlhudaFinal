@@ -12,7 +12,7 @@ class ActionProvider {
     };
 
     handleTimings = () => {
-        const message = this.createChatBotMessage("اشكرك علا تفاعلك معنا , الدوام المباشر من 8 صباحاً الي 8 مسائاُ بتوقيت الامارات ,الدوام عن بعد على مدار الساعه-Thank you for your interaction with us, direct work from 8 am to 8 pm UAE time, working remotely around the clock ");
+        const message = this.createChatBotMessage("اشكرك علا تفاعلك معنا , الدوام المباشر من 8 صباحاً الي 6:30 مسائاُ بتوقيت الامارات ,الدوام عن بعد على مدار الساعه-Thank you for your interaction with us, direct work from 8 am to 6:30 pm UAE time, working remotely around the clock ");
         this.addMessageToState(message);
     };
 
@@ -40,7 +40,7 @@ class ActionProvider {
     };
 
     handleLocation = () => {
-        const message = this.createChatBotMessage("United Arab Emirates - Dubai - The main branch Al Mamzar area Website link (---) The second branch Al Muzhar area Website link (---)-دوله الامارات العربيه المتحده - دبي - الفرع الرئيسي منطقه الممزر رابط الموقع (---) الفرع الثاني منطقه المزهر رابط الموقع (---) ");
+        const message = this.createChatBotMessage("United Arab Emirates AL Mamzar 1 - Dubai - The main branch Al Mamzar area Website link (---) The second branch Al Muzhar area Website link (---)-دوله الامارات العربيه المتحده - دبي - الفرع الرئيسي منطقه الممزر رابط الموقع (---) الفرع الثاني منطقه المزهر رابط الموقع (---) ");
         this.addMessageToState(message);
     };
 

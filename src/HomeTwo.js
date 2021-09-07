@@ -24,31 +24,34 @@ export default class HomeTwo extends Component {
                 <HeroImage />
 
                 {/* Service Box */}
-                <ServiceBox />
-
-                {/* About Us 2 */}
-                <AboutUsTwo />
-
-                {/* Course Slider */}
-                <CourseSlider />
-
-                {/* Counter Area */}
+                {/*<ServiceBox />*/}
                 <NumberCounter />
 
-                {/* Free Course Area */}
+                {/* About Us 2 */}
+             <AboutUsTwo/>
+             <HomeBlog/>
+
+                {/* Course Slider */}
+               
+
+                {/* Counter Area */}
+                
+               
+
+                {/*Instructors area */}
                 
 
                 {/* Team Slider */}
                <TeamSlider/>
 
                 {/* Testimonial Slider */}
-                <TestimonialSlider />
+               
 
                 {/* Blog Area */}
-                <HomeBlog />
-
-                {/* Image Gallery Area */}
+                
                 <ImageGallery/>
+                {/* Image Gallery Area */}
+               
 
                 {/* Footer 2 */}
                 <FooterTwo />

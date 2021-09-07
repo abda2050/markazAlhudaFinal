@@ -3,27 +3,29 @@
         "id": "1",
         "uniqClass": "box-icon box1",
         "boxIcon": "flaticon-thumbs-like",
-        "titleArabic": "الدورات الشائعة",
-        "title": "Popular Courses",
-        "subTitle": "Lorem ipsum dolor sit, amet consectetur elit.",
-        "subTitleArabic":"مرحبا يا مرحبا يا مرحبا يا مرحبا يا مرحبا يا مرحبا"
+        "titleArabic": "رسالتنا",
+        "title": "Our Message",
+        "subTitleArabic":"  منهج ذكي وفق استراتيجيات تعليمية ذات جودة عالمية في تعليم القرآن الكريم بلغات مختلفة وكوادر استثنائية مبدعة  للنساء والأطفال حول العالم بحضورافتراضي أو مباشر.",
+        "subTitle": "Our message: A smart approach, educational strategies of international quality in teaching the Noble Qur’an in different languages ​​and exceptional cadres for children around the world, with Kraft or direct attendance."
+        
     },
     {
         "id": "2",
         "uniqClass": "box-icon box2",
         "boxIcon": "flaticon-reading",
-        "titleArabic": "مكتبة حديثة",
-        "title": "Modern Library",
-        "subTitle": "Lorem ipsum dolor sit, amet consectetur elit.",
-        "subTitleArabic":"مرحبا يا مرحبا يا مرحبا يا مرحبا يا مرحبا يا مرحبا"
+        "titleArabic": "رؤيتنا",
+        "title": "Our vision",
+        "subTitleArabic":" مركز قرآني يعمل بالذكاء الاصطناعي",
+        "subTitle": "A Quranic center powered by artificial intelligence"
+       
     },
     {
         "id": "3",
         "uniqClass": "box-icon box3",
         "boxIcon": "flaticon-teacher",
-        "titleArabic": "معلمون محترفون",
-        "title": "Qualified Teacher",
-        "subTitle": "Lorem ipsum dolor sit, amet consectetur elit.",
-        "subTitleArabic":"مرحبا يا مرحبا يا مرحبا يا مرحبا يا مرحبا يا مرحبا"
+        "titleArabic": "قيمنا",
+        "title": "Our vision",
+        "subTitle": "We want our affiliates at Al-Huda Center for the memorization of the Noble Qur’an To enjoy digital culture, and be distinguished by the ease of dealing with the technical knowledge society.",
+        "subTitleArabic":"الشفافيه , المصداقيه و السعاده"
     }
 ]

@@ -28,7 +28,9 @@ class TestimonialSlider extends Component {
                 0: {
                     slidesPerView: 1
                 },
-                576: {
+            }
+        };
+               {/* 576: {
                     slidesPerView: 1
                 },
                 768: {
@@ -36,9 +38,8 @@ class TestimonialSlider extends Component {
                 },
                 992: {
                     slidesPerView: 2
-                }
-            }
-        };
+                }*/}
+        
 
         return (
             <Styles>

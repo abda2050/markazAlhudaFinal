@@ -11,6 +11,8 @@ import HelpArea from './components/HelpArea';
 import HomeBlog from './components/HomeBlog';
 import CampusTour from './components/CampusTour';
 import Footer from './components/Footer';
+import CourseSlider from './components/CourseSlider';
+import AboutUsTwo from './components/AboutUsTwo';
 
 export default class HomeOne extends Component {
     render() {
@@ -26,26 +28,33 @@ export default class HomeOne extends Component {
                 {/* Icon Box */}
                 < IconBox />
 
+               
+
+
                 {/* About Area */}
                 < AboutUs />
 
                 {/* Course Filter */}
-                < CourseFilter />
-
+               
+ {/* Course Slider */}
+ <CourseSlider/>  
+  {/* About Us 2 */}
+  
                 {/* Testimonial Slider */}
                 < TestimonialSlider />
 
                 {/* Faq & Event Area */}
-                < FaqEvent />
+              
 
                 {/* Team Slider */}
                 <TeamSlider/>
 
-                {/* Help Area */}
+              
                 
+            
 
                 {/* Blog Area */}
-                < HomeBlog />
+                
 
                 {/* Campus Tour */}
                 < CampusTour />
